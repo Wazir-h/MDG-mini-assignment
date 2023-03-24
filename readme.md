@@ -1,7 +1,9 @@
+<h3> Command Line Interface , Password Generator</h3>
+
 This is my mini MDG project for password generator. To access this CLI you need to open the folder containing 
 the exe file at terminal and type
 
-./pswdgen
+    ./pswdgen
 
 
 command to see the prompt.
