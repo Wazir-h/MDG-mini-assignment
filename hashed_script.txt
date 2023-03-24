@@ -1,0 +1,7 @@
+{
+    "date": "24/03/2023",
+    "time": "22:17:13",
+    "purpose": "Google",
+    "sha1": "142ce970bd8fe7b40fe7b289ba513ea4e75b599f",
+    "sha256": "68a1e64fca681c9d66a46ab18beb3c0ef85483c14cf24dffab7f33c99dac7c4f"
+}
