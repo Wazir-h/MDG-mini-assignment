@@ -16,7 +16,7 @@ The commands for the CLI:
 <b>gen</b> :  This command will generate password and store it in a binary non-readable format. The hashed value
      along with date and time of generation will be stored in a text file.
      
-<h3><i>'purpose' is a crucial parameter for all the passwords stored as it serves as its access key.</i></h3>
+<i>'purpose' is a crucial parameter for all the passwords stored as it serves as its access key.</i>
 
     You should always state a unique purpose of each of your password as it will be the key to access
     your password in case you forget.
