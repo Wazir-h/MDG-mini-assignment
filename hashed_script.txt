@@ -1,7 +1,19 @@
 {
-    "date": "24/03/2023",
-    "time": "22:17:13",
+    "date": "25/03/2023",
+    "time": "12:17:03",
+    "purpose": "Twitter",
+    "sha1": "9a2651da0664a33e051891d37578a4cbf1f82124",
+    "sha256": "7b938411443145b24b44d3857d5dc9b3f9750aa764d13f594659b0c269e2cf4e"
+}{
+    "date": "25/03/2023",
+    "time": "12:17:15",
+    "purpose": "Facebook",
+    "sha1": "6f1ac36a767d398314bf2468d6c3a433dd65e87b",
+    "sha256": "25ad7be69863982cff31dd6464a39d76e6435e9d66cd1426f9e861032d716a12"
+}{
+    "date": "25/03/2023",
+    "time": "12:17:50",
     "purpose": "Google",
-    "sha1": "142ce970bd8fe7b40fe7b289ba513ea4e75b599f",
-    "sha256": "68a1e64fca681c9d66a46ab18beb3c0ef85483c14cf24dffab7f33c99dac7c4f"
+    "sha1": "d89d9b6a349e48cacd2b336d4c14f20283922417",
+    "sha256": "d025a897efa22940cce061aab0ae4ad511f83cd37975b44859ff179da98108b2"
 }

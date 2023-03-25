@@ -4,7 +4,7 @@ This is my mini MDG project for password generator. To access this CLI you need 
 the exe file at terminal and type
 
     ./pswdgen
-
+ 
 
 command to see the prompt.
 

@@ -43,7 +43,7 @@ def gen(plen ,flag, purpose):
     with open("hashed_script.txt","a+") as hash:
         json.dump(data,hash,indent=4)
 
-    click.echo("Hashed value is stored in file 'hash.txt' ")
+    click.echo("Hashed value is stored in file 'hashed_script.txt' ")
 
 
 @click.command()
@@ -61,6 +61,17 @@ def desc():
     upickel.desc(passfile)
     passfile.close()
 
+
+
+@click.command()
+@click.option("--purpose",prompt = "Enter purpose",type = str) 
+@click.option("--npass",prompt = "Enter New password",type = str) 
+def updt(purpose,npass):
+    upickel.update(purpose,npass,"pass_file.dat")
+    click.echo("Your password has been updated successfully.")
+
+    click.echo({purpose:npass})
+
 @click.group()
 def command_group():
     pass
@@ -68,6 +79,7 @@ def command_group():
 command_group.add_command(acs)
 command_group.add_command(gen)
 command_group.add_command(desc)
+command_group.add_command(updt)
 
 if __name__ == "__main__":
 
