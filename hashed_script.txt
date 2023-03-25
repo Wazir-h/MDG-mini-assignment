@@ -28,4 +28,28 @@
     "record": "updated pswd for Facebook",
     "sha1": "9f145b44671be142a90bef1f4da86056d4fbdb5f",
     "sha256": "6607e1b60669ec23a9e80643980c50e0d59d0149de364584b479e320b58ac4ef"
+}{
+    "date": "25/03/2023",
+    "time": "18:56:37",
+    "purpose": "LinkedIN",
+    "sha1": "14b0ae4df6d3a20a39768d5f6a7ae1cd41f7ae33",
+    "sha256": "80444bcb7e536f151d6be8e482649405bbbe777c17a7ee1d1a6ebec1cf92907f"
+}{
+    "date": "25/03/2023",
+    "time": "18:58:00",
+    "record": "updated pswd for Twitter",
+    "sha1": "fb33f467053b7ceaf540368275c4976db1de144e",
+    "sha256": "94fb52a0f34a6fd070a36346204600a94be58bea78d672acb34111b7860fd426"
+}{
+    "date": "25/03/2023",
+    "time": "19:02:22",
+    "purpose": "Twitter",
+    "sha1": "2b83d2e9eb3b87b23a3a160fa644b9eac2f5f87d",
+    "sha256": "acc130911d824b27e8d7f53b15ebb0ff2921d13bfe50d5d7268704e96d21c245"
+}{
+    "date": "25/03/2023",
+    "time": "19:03:08",
+    "record": "updated pswd for Twitter",
+    "sha1": "4288c557f212777e4b19f3f0dd7462afe3e6e347",
+    "sha256": "f3b6b20a3b7a43b6dee55f049f2f4842e78f668a710dc794b2ee272ae0c76129"
 }
