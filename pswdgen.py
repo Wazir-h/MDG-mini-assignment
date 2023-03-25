@@ -72,6 +72,16 @@ def updt(purpose,npass):
 
     click.echo({purpose:npass})
 
+    generation_time = generation_time.split(' ')
+    data = {
+        "date": generation_time[0],
+        "time":generation_time[1],
+        "purpose":f"updated pswd for {purpose}",
+    }
+
+    with open("hashed_script.txt","a+") as hash:
+        json.dump(data,hash,indent=4)
+
 @click.group()
 def command_group():
     pass
