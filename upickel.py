@@ -17,7 +17,7 @@ def search(key,f):
         if flag:
             return D
         else:
-            pass
+            return "NO SUCH PURPOSE FOUND"
         
 
 def entry(d,f): 

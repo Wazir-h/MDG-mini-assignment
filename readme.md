@@ -13,21 +13,22 @@ command to see the prompt.
 
 The commands for the CLI:
 
-gen :  This command will generate password and store it in a binary non-readable format. The hashed value
+<b>gen</b> :  This command will generate password and store it in a binary non-readable format. The hashed value
      along with date and time of generation will be stored in a text file.
      
-    <h4><span style="color:blue">'purpose' is a crucial parameter for all the passwords stored as it serves as its access key.</span></h4>
+    <h4>'purpose' is a crucial parameter for all the passwords stored as it serves as its access key.</h4>
 
     You should always state a unique purpose of each of your password as it will be the key to access
     your password in case you forget.
      
      
-acs: This command will show your password stored in .dat file. To access password enter your purpose 
+<b>acs</b>: This command will show your password stored in .dat file. To access password enter your purpose 
     along with command.
 
 
-updt: This command allows you to remodify the password already saved for a particular purpose. This command 
-desc: Shows the entire binary file.
+<b>updt</b>: This command allows you to remodify the password already saved for a particular purpose. This command will take purpose as parameter and new password as input and register the change in hash file and update the password in .dat file.
+
+<b>desc</b>: Shows the entire binary file.
 
 
 

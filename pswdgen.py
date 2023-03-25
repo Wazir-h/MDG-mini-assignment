@@ -12,17 +12,20 @@ d = {
     "n" : False
 }
 
+
 @click.command()
 @click.option("--plen",prompt = "Enter password length", type = int) 
-@click.option("--flag",prompt = "Do you wish to include special characters (y/n)?") 
+@click.option("--schar",prompt = "Enter special char you wish to include",type = str) 
+@click.option("--flagn",prompt = "Do you wish to include numbers (y/n)") 
 @click.option("--purpose",type = str,prompt = "Write your purpose of password") 
 
-def gen(plen ,flag, purpose):
+def gen(plen ,schar, flagn,purpose):
     
     generation_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
-    flag = d[flag]
-    p = PasswordGenerator(plen,flag)
+    flagn = d[flagn]
+
+    p = PasswordGenerator(schar,plen,flagn)
     p.generate()
     pswd = p.finalpass
 
@@ -46,13 +49,17 @@ def gen(plen ,flag, purpose):
     click.echo("Hashed value is stored in file 'hashed_script.txt' ")
 
 
+
+
+
 @click.command()
 @click.option("--purpose",prompt = "Enter purpose",type = str) 
 def acs(purpose):
     passfile = open("pass_file.dat","rb")
     y = upickel.search(purpose,passfile)
     passfile.close()
-    click.echo(f"Your pswd for {purpose} is: \t{y[purpose]}\t")
+    if(type(y) == dict):    click.echo(f"Your pswd for {purpose} is: \t{y[purpose]}\t")
+    else:   click.echo(y)
 
 
 @click.command()
@@ -63,24 +70,37 @@ def desc():
 
 
 
+
+
 @click.command()
 @click.option("--purpose",prompt = "Enter purpose",type = str) 
 @click.option("--npass",prompt = "Enter New password",type = str) 
+
 def updt(purpose,npass):
     upickel.update(purpose,npass,"pass_file.dat")
     click.echo("Your password has been updated successfully.")
 
     click.echo({purpose:npass})
 
+    generation_time = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     generation_time = generation_time.split(' ')
+
+    p = PasswordGenerator().hashedpass(npass)
     data = {
         "date": generation_time[0],
         "time":generation_time[1],
-        "purpose":f"updated pswd for {purpose}",
+        "record":f"updated pswd for {purpose}",
+        "sha1":p[0],
+        "sha256":p[1]
     }
 
     with open("hashed_script.txt","a+") as hash:
         json.dump(data,hash,indent=4)
+
+
+
+
+
 
 @click.group()
 def command_group():
@@ -90,6 +110,9 @@ command_group.add_command(acs)
 command_group.add_command(gen)
 command_group.add_command(desc)
 command_group.add_command(updt)
+
+
+
 
 if __name__ == "__main__":
 

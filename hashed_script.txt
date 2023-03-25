@@ -1,19 +1,31 @@
 {
     "date": "25/03/2023",
-    "time": "12:17:03",
-    "purpose": "Twitter",
-    "sha1": "9a2651da0664a33e051891d37578a4cbf1f82124",
-    "sha256": "7b938411443145b24b44d3857d5dc9b3f9750aa764d13f594659b0c269e2cf4e"
-}{
-    "date": "25/03/2023",
-    "time": "12:17:15",
-    "purpose": "Facebook",
-    "sha1": "6f1ac36a767d398314bf2468d6c3a433dd65e87b",
-    "sha256": "25ad7be69863982cff31dd6464a39d76e6435e9d66cd1426f9e861032d716a12"
-}{
-    "date": "25/03/2023",
-    "time": "12:17:50",
+    "time": "18:31:15",
     "purpose": "Google",
-    "sha1": "d89d9b6a349e48cacd2b336d4c14f20283922417",
-    "sha256": "d025a897efa22940cce061aab0ae4ad511f83cd37975b44859ff179da98108b2"
+    "sha1": "f15e057f5a9558c67cc85817f17da8c56337675c",
+    "sha256": "5229a5c39eb7e79497b2b898c1ff03a78fa264be52f5980ec36abf9c489d6304"
+}{
+    "date": "25/03/2023",
+    "time": "18:32:03",
+    "purpose": "Facebook",
+    "sha1": "bd61937dc0214e4b783e9e757fd8eaea89ac794a",
+    "sha256": "06f7d44adb46f249fdddb42e48d17c41a3c7433460f9f17b8d29ba1f39227643"
+}{
+    "date": "25/03/2023",
+    "time": "18:32:18",
+    "purpose": "Instagram",
+    "sha1": "f42767e2be5da3a1d5720554b9c8ec19c28a31cb",
+    "sha256": "3e51639fe7cba936c011f2bc1ae37b1839acdc730ab75276a0e0a3bc22a62df7"
+}{
+    "date": "25/03/2023",
+    "time": "18:32:48",
+    "purpose": "Gmail",
+    "sha1": "8aa211da5f66f0ae94bca93894f2b518431eb160",
+    "sha256": "ca30f8e1f38f3b21acd93d89771ec1d2939b29c3870b6e5e9012a2e03ec4ccc7"
+}{
+    "date": "25/03/2023",
+    "time": "18:34:27",
+    "record": "updated pswd for Facebook",
+    "sha1": "9f145b44671be142a90bef1f4da86056d4fbdb5f",
+    "sha256": "6607e1b60669ec23a9e80643980c50e0d59d0149de364584b479e320b58ac4ef"
 }
