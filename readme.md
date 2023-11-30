@@ -32,6 +32,6 @@ The commands for the CLI:
 
 
 
-The 'hashed_script.txt" serves as a record file for all the passwords ever generated and the updates performed on them. 
+The 'hashed_script.txt" serves as a record file for all the passwords ever generated and the updates performed on them. This file stores sha256 hash of the generated password. 
 
 The 'pass_file.dat' will include all your passwords along with particular purpose the user has assigned o it.
